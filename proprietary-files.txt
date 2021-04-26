@@ -1,0 +1,71 @@
+# ADSP Modules
+system_ext/lib/rfsa/adsp/libdsp_streamer_qvrcam_receiver.so
+system_ext/lib/rfsa/adsp/libeye_tracking_dsp_sample_skel.so
+system_ext/lib/rfsa/adsp/libqvr_cam_dsp_driver_skel.so
+system_ext/lib/rfsa/adsp/libqvr_dsp_driver_skel.so
+system_ext/lib/rfsa/adsp/libtracker_6dof_skel_8150.so
+system_ext/lib/rfsa/adsp/libtracker_6dof_skel_8250.so
+system_ext/lib/rfsa/adsp/libtracker_6dof_skel_8350.so
+
+# Alarm
+-product/app/PowerOffAlarm/PowerOffAlarm.apk
+
+# DRM
+vendor/lib/liboemcrypto.so:product/vendor_overlay/30/lib/liboemcrypto.so
+vendor/lib64/liboemcrypto.so:product/vendor_overlay/30/lib64/liboemcrypto.so
+
+# FM
+system_ext/lib64/fm_helium.so
+system_ext/lib64/libfm-hci.so
+system_ext/lib/fm_helium.so
+system_ext/lib/libfm-hci.so
+system_ext/lib64/vendor.qti.hardware.fm@1.0.so
+system_ext/lib/vendor.qti.hardware.fm@1.0.so
+
+# HotwordEnrollment
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
+system_ext/framework/com.android.hotwordenrollment.common.util.jar
+
+# IMS
+-system_ext/priv-app/ims/ims.apk
+system_ext/lib64/lib-imsvideocodec.so
+system_ext/lib64/lib-imsvt.so
+system_ext/lib64/lib-imsvtextutils.so
+system_ext/lib64/lib-imsvtutils.so
+system_ext/lib64/libdiag_system.so
+system_ext/lib64/libimscamera_jni.so
+system_ext/lib64/libimsmedia_jni.so
+system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
+
+# Perf
+system_ext/lib/vendor.qti.hardware.iop@2.0.so
+system_ext/lib64/vendor.qti.hardware.iop@2.0.so
+system_ext/lib/vendor.qti.hardware.perf@2.0.so
+system_ext/lib64/vendor.qti.hardware.perf@2.0.so
+
+# Power-off charging daemon
+bin/charger
+
+# Soundfx - from guacamole QKQ1.190716.003
+vendor/lib/soundfx/libvolumelistener.so:product/vendor_overlay/30/lib/soundfx/libvolumelistener.so|e6c1f1bfb7bd5cfb36131aaff0d4e8c74833865d
+vendor/lib64/soundfx/libvolumelistener.so:product/vendor_overlay/30/lib64/soundfx/libvolumelistener.so|1b16cd00fd2144e860f99c0869c2db1489c789a2
+
+# Soter
+-app/SoterService/SoterService.apk
+
+# Telephony
+etc/permissions/privapp-permissions-qti.xml
+system_ext/etc/permissions/qti_libpermissions.xml
+system_ext/etc/permissions/qti_permissions.xml
+etc/sysconfig/qti_whitelist.xml
+system_ext/etc/sysconfig/qti_whitelist_system_ext.xml
+-system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
+system_ext/etc/permissions/qcrilhook.xml
+system_ext/etc/permissions/privapp-permissions-qti-system-ext.xml
+system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
+system_ext/etc/permissions/telephonyservice.xml
+-system_ext/framework/qcrilhook.jar
+-system_ext/framework/qti-telephony-common.jar
+-system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk

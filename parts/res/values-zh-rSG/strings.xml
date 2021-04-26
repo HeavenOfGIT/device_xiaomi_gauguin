@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Refresh rate settings -->
+    <string name="device_specific_settings_title">小米高级设置</string>
+    <string name="device_specific_settings_summary">屏幕刷新率设置</string>
+    <string name="device_min_refresh_rate">屏幕刷新率设置</string>
+
+    <!-- Dirac settings -->
+    <string name="dirac_title">使用米音提升音质</string>
+    <string name="dirac_summary">优化音质</string>
+    <string name="dirac_headset_title">耳机类型设置</string>
+    <string name="dirac_preset_title">请选择预设效果</string>
+    
+    <!-- Dirac settings: Hi-Fi -->
+    <string name="dirac_hifi_title">使用Hi-Fi高保真播放</string>
+    <string name="dirac_hifi_summary">高度还原音源信息，原汁原味</string>
+    <string name="dirac_hifi_enable_title">启用 HI-FI</string>
+    
+    <!-- Dirac settings: Headset types -->
+    <string name="dirac_headset_default">默认​​​​​</string>
+    <string name="dirac_headset_earbuds">灵动耳塞式</string>
+    <string name="dirac_headset_in_ear_2013">灵悦入耳式</string>
+    <string name="dirac_headset_piston_1">小米活塞1</string>
+    <string name="dirac_headset_general">通用</string>
+    <string name="dirac_headset_general_inear">通用入耳式</string>
+    <string name="dirac_headset_piston_basic">小米活塞简装版</string>
+    <string name="dirac_headset_piston_2">小米活塞2</string>
+    <string name="dirac_headset_piston_standard">小米活塞标准版</string>
+    <string name="dirac_headset_headphone">小米头戴式</string>
+    <string name="dirac_headset_piston_youth">小米活塞青春版</string>
+    <string name="dirac_headset_piston_color">小米活塞炫彩版</string>
+    <string name="dirac_headset_in_ear">小米圈铁</string>
+    <string name="dirac_headset_capsule">小米胶囊</string>
+    <string name="dirac_headset_in_ear_pro">小米圈铁Pro</string>
+    <string name="dirac_headset_comfort">小米头戴轻松版</string>
+    <string name="dirac_headset_reduction_noise">小米降噪 typeC</string>
+    <string name="dirac_headset_cancelling">小米降噪 3.5mm</string>
+    <string name="dirac_headset_half_in_ear">小米半入耳式</string>
+    <string name="dirac_headset_in_ear2">小米圈铁2</string>
+    <string name="dirac_headset_earphone_basic">小米耳机基本款</string>
+    <string name="dirac_headset_earphone">小米耳机</string>
+    
+    <!-- Dirac settings: Equalizer presets -->
+    <string name="dirac_preset_default">默认</string>
+    <string name="dirac_preset_rock">摇滚</string>
+    <string name="dirac_preset_jazz">爵士</string>
+    <string name="dirac_preset_pop">流行</string>
+    <string name="dirac_preset_classical">古典</string>
+    <string name="dirac_preset_hiphop">嘻哈</string>
+    <string name="dirac_preset_blues">蓝调</string>
+    <string name="dirac_preset_electronic">电子音乐</string>
+    <string name="dirac_preset_country">乡村</string>
+    <string name="dirac_preset_dance">舞曲</string>
+    <string name="dirac_preset_metal">金属</string>
+
+    <!-- Thermal profiles -->
+    <string name="thermal_title">优化配置文件</string>
+    <string name="thermal_summary">分应用程序调整配置文件以获得最佳性能</string>
+    <string name="thermal_default">不优化</string>
+    <string name="thermal_benchmark">性能</string>
+    <string name="thermal_browser">浏览器</string>
+    <string name="thermal_camera">相机</string>
+    <string name="thermal_dialer">电话</string>
+    <string name="thermal_gaming">游戏</string>
+    <string name="thermal_streaming">流媒体应用程序</string>
+
+    <!-- Touch Control Settings -->
+    <string name="touch_control_title">触摸刷新率配置</string>
+    <string name="touch_game_mode_title">打开游戏模式</string>
+    <string name="touch_game_mode_summary">提升屏幕采样率到 180Hz</string>
+    <string name="touch_response_title">触摸回馈</string>
+    <string name="touch_response_summary">控制触摸回馈</string>
+    <string name="touch_sensitivity_title">触摸灵敏度</string>
+    <string name="touch_sensitivity_summary">控制连续点击的触摸灵敏度</string>
+    <string name="touch_resistant_title">防误触</string>
+    <string name="touch_resistant_summary">通过降低边缘的触摸灵敏度，来防误触。</string>
+
+    <!-- DT2W -->
+    <string name="dt2w_enable_title">双击唤醒</string>
+    <string name="dt2w_enable_summary">在屏幕上的任意位置点按两次即可唤醒设备</string>
+</resources>
